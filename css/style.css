@@ -145,6 +145,8 @@ header .logo img {
   text-align: center;
 }
 
+
+
 .language-switch a {
     text-decoration: none;
     color: var(--text-color);
@@ -415,6 +417,21 @@ footer {
     background-color: #222;
     color: white;
     padding: 60px 0 20px;
+}
+/* Footer partenaires */
+.footer-col.partenaires ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-col.partenaires ul li {
+    margin-bottom: 0.5em;
+}
+  
+  /* Optionnel : styliser contact-info différemment */
+.footer-col.contact-info p,
+.footer-col.contact-info a {
+    display: block;
+    margin-bottom: 0.25em;
 }
 
 .footer-grid {
