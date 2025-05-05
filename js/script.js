@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
     
     // Newsletter form submission
     const newsletterForm = document.querySelector('.newsletter form');
